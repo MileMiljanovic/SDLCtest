@@ -10,7 +10,7 @@ public class HelloService {
 	
 	@Bean
 	public void hello() {
-		System.out.println("NYEEEEEH! Current date and time is: " + new Timestamp(System.currentTimeMillis()));
+		System.out.println("EDIT! Current date and time is: " + new Timestamp(System.currentTimeMillis()));
 	}
 
 }
